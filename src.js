@@ -11,4 +11,4 @@
 
 loadFile("https://github.com/samwiston/graphtv/blob/master/testFile.json")*/
 
-document.getElementById("Title").innerHTML = "Something";
+document.getElementById("title").innerHTML = "Something";
