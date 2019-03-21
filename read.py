@@ -43,8 +43,6 @@ with open("title.basics.tsv", "r", encoding="utf8") as basicsFile:
                             "titleType":     vals[1],
                             "primaryTitle":  vals[2],
                             "startYear":     vals[5],
-                            "endYear":       vals[6],
-                            "genres":        vals[8],
                             "averageRating": rankings[vals[0]]["averageRating"],
                             "numVotes":      rankings[vals[0]]["numVotes"]
                         }
