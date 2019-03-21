@@ -28,25 +28,25 @@ with open("title.basics.tsv", "r", encoding="utf8") as basicsFile:
                 if vals[1] == "tvSeries":
                     basicInfo.update({
                         vals[0]:{
-                            "titleType": vals[1],
-                            "primaryTitle": vals[2],
-                            "startYear": vals[5],
-                            "endYear": vals[6],
-                            "genres": vals[8],
+                            "titleType":     vals[1],
+                            "primaryTitle":  vals[2],
+                            "startYear":     vals[5],
+                            "endYear":       vals[6],
+                            "genres":        vals[8],
                             "averageRating": rankings[vals[0]]["averageRating"],
-                            "numVotes": rankings[vals[0]]["numVotes"]
+                            "numVotes":      rankings[vals[0]]["numVotes"]
                         }
                     })
                 elif vals[1] == "tvEpisode":
                     episodes.update({
                         vals[0]:{
-                            "titleType": vals[1],
-                            "primaryTitle": vals[2],
-                            "startYear": vals[5],
-                            "endYear": vals[6],
-                            "genres": vals[8],
+                            "titleType":     vals[1],
+                            "primaryTitle":  vals[2],
+                            "startYear":     vals[5],
+                            "endYear":       vals[6],
+                            "genres":        vals[8],
                             "averageRating": rankings[vals[0]]["averageRating"],
-                            "numVotes": rankings[vals[0]]["numVotes"]
+                            "numVotes":      rankings[vals[0]]["numVotes"]
                         }
                     })
 
